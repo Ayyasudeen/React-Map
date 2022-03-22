@@ -22,3 +22,5 @@ const UserSchema = new mongoose.Schema({
   }, 
   { timestamps: true }  // to have automatic timestamps for the each fields
 );
+
+module.exports = mongoose.model("User", UserSchema);
